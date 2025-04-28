@@ -1,4 +1,4 @@
-export interface AnimalSortOptions {
+export interface CustomSelectOption {
   type: string;
   displayName: string;
 }

@@ -1,16 +1,27 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
-export const useFetch = <T>(fetchFunction: () => Promise<T>) => {
-  const [data, setData] = useState<T>();
+const useFetch = <T, P = undefined>(
+  fetchFunction: (params?: P) => Promise<T>,
+  params?: P
+) => {
+  const [data, setData] = useState<T>([] as T);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await fetchFunction();
-      setData(result);
+      setError(null);
+      try {
+        const data = await fetchFunction(params);
+        setData(data);
+      } catch (error) {
+        setError("Failed to fetch data, check console log for more details.");
+      }
     };
 
     fetchData();
-  }, [fetchFunction]);
+  }, [fetchFunction, params]);
 
-  return { data };
+  return { data, error };
 };
+
+export default useFetch;

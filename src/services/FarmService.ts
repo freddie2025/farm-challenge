@@ -1,44 +1,16 @@
-import { Animal, AnimalSortOptions, AnimalType } from "../interfaces";
-import api from "./api";
+import { Animal, AnimalFilter, CustomSelectOption } from "../interfaces";
+import { BaseService } from "./BaseService";
 
-class FarmService {
-  private static getData = async <T extends object>(
-    endpoint: string,
-    params?: Record<string, any>
-  ): Promise<Array<T>> => {
-    console.log(
-      "Fetching data from endpoint:",
-      endpoint,
-      "with params:",
-      params
-    );
-
-    const response = await api.get<Array<T>>(endpoint, { params });
-
-    console.log("Response data:", response.data);
-
-    if (!response || response.status !== 200) {
-      throw new Error("Failed to fetch data");
-    }
-
-    return response.data;
-  };
-
-  public static getAnimals(
-    name?: string,
-    type?: string,
-    order?: number
-  ): Promise<Array<Animal>> {
-    return this.getData<Animal>("/animals", { name, type, order });
+export class FarmService extends BaseService {
+  public static getAnimals(params?: AnimalFilter): Promise<Array<Animal>> {
+    return BaseService.getData<Animal>("/animals", params);
   }
 
-  public static getAnimalSortOptions(): Promise<Array<AnimalSortOptions>> {
-    return this.getData<AnimalSortOptions>("/animal-sort-options");
+  public static getAnimalSortOptions(): Promise<Array<CustomSelectOption>> {
+    return BaseService.getData<CustomSelectOption>("/animal-sort-options");
   }
 
-  public static getAnimalTypes(): Promise<Array<AnimalType>> {
-    return this.getData<AnimalType>("/animal-types");
+  public static getAnimalTypes(): Promise<Array<CustomSelectOption>> {
+    return BaseService.getData<CustomSelectOption>("/animal-types");
   }
 }
-
-export default FarmService;

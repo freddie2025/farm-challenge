@@ -1,4 +1,3 @@
-export { default as NameFilter } from "./NameFilter";
-export { default as AnimalTypeSelect } from "./AnimalTypeSelect";
-export { default as AnimalsTable } from "./AnimalsTable";
-export { default as SortOrderSelect } from "./SortOrderSelect";
+export { AnimalsTable } from "./AnimalsTable/AnimalsTable";
+export { CustomSelect } from "./CustomSelect/CustomSelect";
+export { NameFilter } from "./NameFilter";
