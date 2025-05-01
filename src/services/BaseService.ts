@@ -1,6 +1,6 @@
 import api from "./api";
 
-export class BaseService {
+export abstract class BaseService {
   protected static getData = async <T extends object>(
     endpoint: string,
     params?: Record<string, any>

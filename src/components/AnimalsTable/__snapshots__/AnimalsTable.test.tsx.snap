@@ -1,0 +1,542 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-y2ff7i-MuiPaper-root-MuiTableContainer-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <table
+      class="MuiTable-root sc-blHHSb hpuBmX css-1xwxv7r-MuiTable-root"
+    >
+      <thead
+        class="MuiTableHead-root css-1a7iywq-MuiTableHead-root"
+      >
+        <tr
+          class="MuiTableRow-root MuiTableRow-head css-1xtozoh-MuiTableRow-root"
+        >
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-g6bqb5-MuiTableCell-root"
+            scope="col"
+          />
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-g6bqb5-MuiTableCell-root"
+            scope="col"
+          >
+            Name
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-g6bqb5-MuiTableCell-root"
+            scope="col"
+          >
+            Age
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-g6bqb5-MuiTableCell-root"
+            scope="col"
+          >
+            Worth
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-g6bqb5-MuiTableCell-root"
+            scope="col"
+          >
+            Gender
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-g6bqb5-MuiTableCell-root"
+            scope="col"
+          >
+            Type
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-g6bqb5-MuiTableCell-root"
+            scope="col"
+          >
+            IsAlive
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="MuiTableBody-root css-gmh7jj-MuiTableBody-root"
+      >
+        <tr
+          class="MuiTableRow-root css-1xtozoh-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-jiabcu-MuiTableCell-root"
+          >
+            <img
+              alt="Abbott Dennis"
+              class="sc-egkSDF jtINFA"
+              src="./animals/chicken.png"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            Abbott Dennis
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            8
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            14.57
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            male
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            chicken
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            <input
+              class="sc-fAUdSK"
+              readonly=""
+              type="checkbox"
+            />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1xtozoh-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-jiabcu-MuiTableCell-root"
+          >
+            <img
+              alt="Abby Lynch"
+              class="sc-egkSDF jtINFA"
+              src="./animals/chicken.png"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            Abby Lynch
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            10
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            5
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            female
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            chicken
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            <input
+              checked=""
+              class="sc-fAUdSK"
+              readonly=""
+              type="checkbox"
+            />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1xtozoh-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-jiabcu-MuiTableCell-root"
+          >
+            <img
+              alt="Ada Munoz"
+              class="sc-egkSDF jtINFA"
+              src="./animals/pig.png"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            Ada Munoz
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            4
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            13.39
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            female
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            pig
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            <input
+              class="sc-fAUdSK"
+              readonly=""
+              type="checkbox"
+            />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1xtozoh-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-jiabcu-MuiTableCell-root"
+          >
+            <img
+              alt="Adams Macias"
+              class="sc-egkSDF jtINFA"
+              src="./animals/pig.png"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            Adams Macias
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            7
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            28.46
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            male
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            pig
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            <input
+              checked=""
+              class="sc-fAUdSK"
+              readonly=""
+              type="checkbox"
+            />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1xtozoh-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-jiabcu-MuiTableCell-root"
+          >
+            <img
+              alt="Addie Anderson"
+              class="sc-egkSDF jtINFA"
+              src="./animals/goat.png"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            Addie Anderson
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            10
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            46.75
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            female
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            goat
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            <input
+              class="sc-fAUdSK"
+              readonly=""
+              type="checkbox"
+            />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1xtozoh-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-jiabcu-MuiTableCell-root"
+          >
+            <img
+              alt="Adela Sharp"
+              class="sc-egkSDF jtINFA"
+              src="./animals/chicken.png"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            Adela Sharp
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            10
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            35.69
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            female
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            chicken
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            <input
+              checked=""
+              class="sc-fAUdSK"
+              readonly=""
+              type="checkbox"
+            />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1xtozoh-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-jiabcu-MuiTableCell-root"
+          >
+            <img
+              alt="Adele Galloway"
+              class="sc-egkSDF jtINFA"
+              src="./animals/goat.png"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            Adele Galloway
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            9
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            48.46
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            female
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            goat
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            <input
+              class="sc-fAUdSK"
+              readonly=""
+              type="checkbox"
+            />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1xtozoh-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-jiabcu-MuiTableCell-root"
+          >
+            <img
+              alt="Adkins Hansen"
+              class="sc-egkSDF jtINFA"
+              src="./animals/goat.png"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            Adkins Hansen
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            3
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            43.03
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            male
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            goat
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            <input
+              checked=""
+              class="sc-fAUdSK"
+              readonly=""
+              type="checkbox"
+            />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1xtozoh-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-jiabcu-MuiTableCell-root"
+          >
+            <img
+              alt="Adriana Burgess"
+              class="sc-egkSDF jtINFA"
+              src="./animals/cow.png"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            Adriana Burgess
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            10
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            43.87
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            female
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            cow
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            <input
+              class="sc-fAUdSK"
+              readonly=""
+              type="checkbox"
+            />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1xtozoh-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-jiabcu-MuiTableCell-root"
+          >
+            <img
+              alt="Agnes Hull"
+              class="sc-egkSDF jtINFA"
+              src="./animals/pig.png"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            Agnes Hull
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            5
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            10.64
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            female
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            pig
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall sc-gtLWhw cAQDXj css-jiabcu-MuiTableCell-root"
+          >
+            <input
+              checked=""
+              class="sc-fAUdSK"
+              readonly=""
+              type="checkbox"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;

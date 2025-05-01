@@ -9,7 +9,7 @@ const FarmChallengePage = () => {
   const handleFilterChange = (key: keyof AnimalFilter, value: string) => {
     setFilters((prev) => ({
       ...prev,
-      [key]: value,
+      [key]: value === "" ? undefined : value,
     }));
   };
 
